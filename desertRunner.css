@@ -1,0 +1,29 @@
+#runner{
+  margin-bottom: -100px;
+  margin-top: 200px;
+  position: relative;
+  width: 20%;
+}
+#obstacle{
+  position: absolute;
+  right: 0px;
+  margin-top: 300px;
+  margin-bottom: 0px;
+  width: 100px;
+}
+
+
+button{
+  width: 200px;
+  height: 40px;
+}
+
+body{
+  background-color: rgb(224, 224, 169);
+}
+
+#road{
+  margin-top: 0px;
+  margin-left: -100px;
+  margin-right: 0px;
+}

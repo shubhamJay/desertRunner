@@ -1,0 +1,21 @@
+<html>
+<head>
+  <title>desert Runner</title>
+  <script type="text/javascript" src="desertRunner.js"></script>
+  <link rel="stylesheet" href="desertRunner.css"  />
+</head>
+
+<body id="gameBody" onkeypress="jumpPlayer(runner,obstacle)">
+  <div>
+  <button onclick="startGame()" id="startButton">start Game</button>
+  <div>
+  <h1 id="loosingNote"></h1>
+</div>
+  <h2>Your score</h2><h2 id="score"></h2>
+  <button onclick="restartGame(obstacle)" id="restartButton" style="visibility:hidden">Restart Game</button>
+</div>
+  <img src="cactus1.png" id="obstacle" />
+  <img src="runnerStanding.gif" id="runner"/>
+  <img src="road.png" id="road" />
+</body>
+</html>
